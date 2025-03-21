@@ -6,14 +6,12 @@ import Container from "react-bootstrap/Container";
 // import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 // import { CgGitFork } from "react-icons/cg";
-import {
-  // AiFillStar,
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineContacts
-} from "react-icons/ai";
-import { GiSkills } from "react-icons/gi"
-import { CgFileDocument } from "react-icons/cg";
+import { FaRegNewspaper } from "react-icons/fa";
+import { IoHome } from "react-icons/io5";
+import { MdOutlineHowToReg } from "react-icons/md";
+import { VscProject } from "react-icons/vsc";
+import { RiContactsBook3Line } from "react-icons/ri";
+
 
 
 function NavBar() {
@@ -39,6 +37,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
+          <h1 class="rubik-burned-regular">Bhaargav</h1>
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
         </Navbar.Brand>
         <Navbar.Toggle
@@ -55,7 +54,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <IoHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
@@ -65,7 +64,7 @@ function NavBar() {
                 to="/skillset"
                 onClick={() => updateExpanded(false)}
               >
-                <GiSkills style={{ marginBottom: "2px" }} /> Skillset
+                <MdOutlineHowToReg style={{ marginBottom: "2px" }} /> Skillset
               </Nav.Link>
             </Nav.Item>
 
@@ -75,7 +74,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <VscProject
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
@@ -88,7 +87,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <FaRegNewspaper style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 
@@ -98,7 +97,7 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact Me
+                < RiContactsBook3Line  style={{ marginBottom: "2px" }} /> Contact Me
               </Nav.Link>
             </Nav.Item>
 

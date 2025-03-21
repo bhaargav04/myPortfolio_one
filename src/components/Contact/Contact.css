@@ -1,3 +1,16 @@
+.contact-container {
+    background-image: url('../assets/home3.jpg'); /* Adjust the path as needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh; /* Ensure full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
 .contact-form{
     padding: 0 3rem 0 3rem;
     display: flex;
@@ -34,14 +47,14 @@
     height: 3rem;
     padding: 0.3em;
     outline: none;
-    border: 2px solid #40008a;
+    border: 2px solid #b3ff00;
     border-radius: 8px;
     font-size: 19px;
     color: white   
 }
 
 .c-right .user:hover{
-    box-shadow: 0 0 9px #7500fa;
+    box-shadow: 0 0 9px #b3ff00;
 }
 
 input{

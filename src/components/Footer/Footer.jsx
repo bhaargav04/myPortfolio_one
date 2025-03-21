@@ -17,7 +17,8 @@ const Footer = () => {
             <span>Dedicated to creating impactful solutions!</span>
           </Col>
           <Col md="4" className="footer-copywright">
-            <span>Copyright © {year}</span>
+            <span>Copyright © {year}</span>&nbsp;
+            <h1 class="rubik-burned-regular" style={{marginBottom:'0px'}}>Bhaargav</h1>
             {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
           </Col>
           <Col md="4" className="footer-body">

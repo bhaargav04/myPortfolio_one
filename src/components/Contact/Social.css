@@ -2,8 +2,10 @@
     position: relative;
     padding-bottom: 70px !important;
     padding-top: 70px !important;
+    
   }
 
+  
 .contact-text{
     color: white
 }
@@ -37,7 +39,7 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #e9fa00;
+    background: #b3ff00;
     transition: 0.5s;
     transform: scale(0.9);
     z-index: -1;
@@ -45,13 +47,13 @@
 
   .contact-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #fdf902;
+    box-shadow: 0 0 15px #b3ff00;
   }
   
   .contact-social-icons:hover {
-    color: #e5ff00;
-    box-shadow: 0 0 7px #fdf901;
-    text-shadow: 0 0 4px #fcf802;
+    color: #b3ff00;
+    box-shadow: 0 0 7px #b3ff00;
+    text-shadow: 0 0 4px #b3ff00;
   }
   .contact-icons {
     display: inline-block !important;
