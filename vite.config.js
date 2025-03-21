@@ -5,14 +5,17 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    host: "0.0.0.0",  // Binds to all network interfaces
-    port: 5173,       // Default Vite port (change if needed)
-    strictPort: true, // Ensures Vite doesn't switch ports
-    cors: true        // Allows external access
+    host: true, // Allows access from external hosts
+    port: 5173,
+    strictPort: true,
+    cors: true
   },
   preview: {
-    host: "0.0.0.0",  // Required for Render deployment
+    host: "0.0.0.0",
     port: 10000,
-    strictPort: true
+    strictPort: true,
+    headers: {
+      "Access-Control-Allow-Origin": "*"
+    }
   }
 });
