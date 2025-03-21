@@ -8,7 +8,7 @@ export default defineConfig({
     port: 5173,        // Change if necessary
     strictPort: true,
     cors: true,
-    allowedHosts: ["myportfolio-one.onrender.com"],  // Allow Render domain
+    allowedHosts: ["preview.allowedHosts"],  // Allow Render domain
   },
   preview: {
     host: "0.0.0.0",
