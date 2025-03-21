@@ -67,9 +67,9 @@ const Projects = () => {
             <ProjectCard
               imgPath={krypto}
               isBlog={false}
-              title="Project Krypto"
+              title="Portfolio"
               description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
-              ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
+              ghLink="https://github.com/bhaargav04/myPortfolio_one"
               demoLink="https://project-krypto.netlify.app/"
             />
           </Col>
