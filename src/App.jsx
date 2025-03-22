@@ -17,6 +17,8 @@ import Footer from "./components/Footer/Footer";
 import Preloader from "./components/PreLoader"
 import ScrollToTop from "./components/ScrollToTop"
 
+import ClickSpark from "./components/ClickSpark"; // Corrected import
+import StarBorder from './components/StarBorder';
 import "./App.css";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -33,6 +35,15 @@ function App() {
   }, []);
 
   return (
+    <>
+    <ClickSpark
+      sparkColor="#fff"
+      sparkSize={10}
+      sparkRadius={15}
+      sparkCount={8}
+      duration={400}
+    >
+
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
@@ -49,6 +60,9 @@ function App() {
         <Footer />
       </div>
     </Router>
+
+    </ClickSpark>
+    </>
   );
 }
 
