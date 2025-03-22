@@ -17,13 +17,14 @@ import Footer from "./components/Footer/Footer";
 import Preloader from "./components/PreLoader"
 import ScrollToTop from "./components/ScrollToTop"
 
-import ClickSpark from "./components/ClickSpark"; // Corrected import
-import StarBorder from './components/StarBorder';
+import * as ClickSpark from "./components/ClickSpark"; // Corrected import
+
 import "./App.css";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
+  console.log(ClickSpark); 
   const [load, upadateLoad] = useState(true);
 
   useEffect(() => {
