@@ -26,7 +26,7 @@ const Projects = () => {
               imgPath={weather}
               isBlog={false}
               title="Weather Forecast"
-              description="This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management."
+              description="My weather forecast project is a sleek and responsive web application built with React.js, providing real-time weather updates for any location. With a clean and intuitive interface, users can effortlessly check current conditions, temperature, humidity, wind speed, and future forecasts. The app fetches data from a weather API, ensuring accurate and up-to-date information. Designed with a visually appealing layout and smooth user experience, this project showcases my front-end development skills while offering a practical tool for everyday weather tracking."
               ghLink="https://github.com/bhaargav04/WeatherApp"
               demoLink="https://weatherforecast-bhaargav.netlify.app/"
             />
@@ -37,7 +37,7 @@ const Projects = () => {
               imgPath={timetable}
               isBlog={false}
               title="Time Table Scheduler"
-              description="This platform features a responsive interface built with Reactjs and CSS, allowing users to easily manage their profiles and posts through CRUD activities. The option to follow other users and interact with their posts (like or dislike) is also available, with suggestions for new users to follow. Users can only view posts from their followed users and can only engage in chat with those they follow. The backend is powered by Nodejs and Expressjs server, while MongoDB is utilized as the database."
+              description="My timetable scheduler is a dynamic web application designed to simplify staff and subject allocation while ensuring an organized weekly schedule. Built using EJS, Node.js, Express.js, and MongoDB, it enables administrators to assign subjects to staff with customizable constraints, such as maximum weekly classes and mandatory free periods. The system intelligently generates a structured timetable in a grid format, balancing workloads and preventing conflicts. With an intuitive interface and PDF export functionality, this scheduler enhances efficiency in academic planning, making timetable management seamless and hassle-free."
               ghLink="https://github.com/bhaargav04/TimetableBhaargav"
               demoLink="https://timetablebhaargav.onrender.com/"
             />
@@ -48,7 +48,7 @@ const Projects = () => {
               imgPath={playstore}
               isBlog={false}
               title="Play Store Replica"
-              description="This ecommerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses MongoDB and Firebase as the database."
+              description="My Play Store replica website is a fully responsive web application designed to mimic the functionality and aesthetics of the official Play Store. Built with modern front-end technologies, it features a dynamic interface where users can browse, search, and explore various apps categorized by genres. The design prioritizes smooth navigation, interactive UI elements, and a seamless user experience. This project highlights my ability to create visually appealing and functional web applications that replicate real-world platforms with precision and efficiency."
               ghLink="https://github.com/bhaargav04/Playstore_replica"
               demoLink="https://playstore-replica.onrender.com/"
             />
@@ -59,7 +59,7 @@ const Projects = () => {
               imgPath={trafficlights}
               isBlog={false}
               title="Traffic Light"
-              description="This blogging application features a RESTful API server built with Nodejs and Expressjs. The data is retrieved from the API server and displayed on a user-friendly interface designed using React, Redux, and styled-components for a seamless experience."
+              description="My traffic light project is a Python-based simulation that visually represents the functioning of a standard traffic light system. Using graphical libraries, it cycles through red, yellow, and green lights with realistic timing intervals, demonstrating an essential aspect of traffic control. This project showcases my ability to implement logical sequencing and visual representation in Python, making it an engaging demonstration of real-world automation concepts."
               ghLink="https://github.com/bhaargav04/Traffic-ligths.py"
             />
           </Col>
@@ -69,7 +69,7 @@ const Projects = () => {
               imgPath={marvel}
               isBlog={false}
               title="Webpage using Tailwind"
-              description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
+              description="My webpage built with Tailwind CSS showcases a modern, responsive, and visually appealing design with a utility-first approach. Leveraging Tailwind’s powerful styling capabilities, the page ensures a clean layout, fast performance, and seamless responsiveness across devices. With optimized styling and minimal custom CSS, this project highlights my proficiency in creating elegant and efficient web interfaces while maintaining flexibility for future scalability."
               ghLink="https://github.com/bhaargav04/avengers"
               demoLink="https://bhaargav04.neocities.org/BOOTSTRAP/first"
             />
@@ -80,7 +80,7 @@ const Projects = () => {
               imgPath={handCricket}
               isBlog={false}
               title="Hand Cricket"
-              description="Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns."
+              description="My hand cricket game is a Python-based interactive game that simulates the popular playground version of cricket played with hand gestures. The game allows users to bat and bowl against a computer opponent, following traditional hand cricket rules where matching numbers result in a wicket. Built with logical decision-making and user input handling, this project demonstrates my ability to develop engaging and interactive applications in Python while implementing game mechanics effectively."
               ghLink="https://github.com/bhaargav04/HandCricket"
             />
           </Col>
