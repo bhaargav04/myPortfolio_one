@@ -24,7 +24,7 @@ import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  console.log(ClickSpark); 
+  // console.log(ClickSpark); 
   const [load, upadateLoad] = useState(true);
 
   useEffect(() => {
