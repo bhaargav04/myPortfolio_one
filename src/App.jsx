@@ -17,7 +17,6 @@ import Footer from "./components/Footer/Footer";
 import Preloader from "./components/PreLoader"
 import ScrollToTop from "./components/ScrollToTop"
 
-import * as ClickSpark from "./components/ClickSpark"; // Corrected import
 
 import "./App.css";
 import "./style.css";
@@ -36,14 +35,8 @@ function App() {
   }, []);
 
   return (
-    <>
-    <ClickSpark
-      sparkColor="#fff"
-      sparkSize={10}
-      sparkRadius={15}
-      sparkCount={8}
-      duration={400}
-    >
+    
+   
 
     <Router>
       <Preloader load={load} />
@@ -62,8 +55,7 @@ function App() {
       </div>
     </Router>
 
-    </ClickSpark>
-    </>
+    
   );
 }
 
