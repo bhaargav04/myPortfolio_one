@@ -21,6 +21,9 @@ import ScrollToTop from "./components/ScrollToTop"
 import "./App.css";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ClickSpark from './components/ClickSpark';
+
+
 
 function App() {
   // console.log(ClickSpark); 
@@ -36,7 +39,15 @@ function App() {
 
   return (
     
-   
+    <ClickSpark
+    sparkColor='#fff'
+    sparkSize={10}
+    sparkRadius={15}
+    sparkCount={8}
+    duration={400}
+  >
+  
+  
 
     <Router>
       <Preloader load={load} />
@@ -55,7 +66,7 @@ function App() {
       </div>
     </Router>
 
-    
+    </ClickSpark>
   );
 }
 
