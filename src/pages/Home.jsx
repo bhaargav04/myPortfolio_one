@@ -5,6 +5,7 @@ import Particle from '../components/Particle';
 import About from '../components/Home/About';
 import Type from '../components/Home/Type';
 import Tilt from "react-parallax-tilt";
+import GradientText from '../components/GradientText';
 
 const Home = () => {
   return (
@@ -22,8 +23,7 @@ const Home = () => {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> Bhaargav B</strong>
+                I'M &nbsp;<strong><GradientText> Bhaargav B</GradientText></strong>
               </h1>
               <div style={{ paddingLeft: 50, paddingRight: 50, paddingTop: 30, paddingBottom: 70 ,vtextAlign: "left" }}>
                 <Type />

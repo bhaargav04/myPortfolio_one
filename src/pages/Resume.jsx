@@ -5,7 +5,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 import Particle from "../components/Particle";
 import pdf from "../assets/resume.pdf";  // Ensure this path is correct
-
+import ShinyText from "../components/ShinyText";
 import { Document, Page, pdfjs } from "react-pdf";
 // import "react-pdf/dist/esm/text-Layer.css";
 // import "react-pdf/dist/esm/Annotation-layer.css";
@@ -49,7 +49,7 @@ const Resume = () => {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download Resume
+            &nbsp;<ShinyText text="Download Resume" disabled={false} speed={3} className='custom-class' />
           </Button>
         </Row>
       </Container>
