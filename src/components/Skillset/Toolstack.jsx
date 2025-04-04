@@ -1,56 +1,36 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiPostman,
-  SiVercel,
-  SiNetlify,
-  SiRailway,
-  SiRender,
-  SiAndroidstudio,
-  SiNotepadplusplus, SiIntellijidea,  SiPycharm
+  SiPostman, SiVercel, SiNetlify, SiRailway, SiRender, 
+  SiAndroidstudio, SiNotepadplusplus, SiIntellijidea, SiPycharm
 } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 import { VscVscode } from "react-icons/vsc";
 
+const toolStackData = [
+  { icon: <VscVscode />, title: "VS Code" },
+  { icon: <AiFillGithub />, title: "GitHub" },
+  { icon: <SiPostman />, title: "Postman" },
+  { icon: <SiVercel />, title: "Vercel" },
+  { icon: <SiRender />, title: "Render" },
+  { icon: <SiNetlify />, title: "Netlify" },
+  { icon: <SiRailway />, title: "Railway" },
+  { icon: <SiAndroidstudio />, title: "Android Studio" },
+  { icon: <SiNotepadplusplus />, title: "Notepad++" },
+  { icon: <SiIntellijidea />, title: "IntelliJ IDEA" },
+  { icon: <SiPycharm />, title: "PyCharm" },
+];
+
 const Toolstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <VscVscode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <AiFillGithub />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRender />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNetlify />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRailway />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAndroidstudio />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNotepadplusplus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPycharm />
-      </Col>
-      
+      {toolStackData.map((tool, index) => (
+        <Col xs={4} md={2} className="tech-icons" key={index} title={tool.title}>
+          {tool.icon}
+        </Col>
+      ))}
     </Row>
   );
-}
+};
 
 export default Toolstack;

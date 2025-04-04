@@ -13,8 +13,8 @@ import { Document, Page, pdfjs } from "react-pdf";
 // Correct way to set up pdfjs worker
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink = "https://drive.google.com/uc?export=download&id=16A9o3AODLTioNTg1JzBR3jjqSjWaub1t";
-
+const resumeLink = "https://drive.google.com/uc?export=download&id=1AEaEB6EwhVG4wvo2pUhv9UcyzopfHD9C";
+// https://drive.google.com/file/d/1AEaEB6EwhVG4wvo2pUhv9UcyzopfHD9C/view?usp=sharing
 const Resume = () => {
   const [width, setWidth] = useState(1200);
 
