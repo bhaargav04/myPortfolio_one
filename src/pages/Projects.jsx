@@ -38,8 +38,8 @@ const Projects = () => {
               isBlog={false}
               title="Time Table Scheduler"
               description="My timetable scheduler is a dynamic web application designed to simplify staff and subject allocation while ensuring an organized weekly schedule. Built using EJS, Node.js, Express.js, and MongoDB, it enables administrators to assign subjects to staff with customizable constraints, such as maximum weekly classes and mandatory free periods. The system intelligently generates a structured timetable in a grid format, balancing workloads and preventing conflicts. With an intuitive interface and PDF export functionality, this scheduler enhances efficiency in academic planning, making timetable management seamless and hassle-free."
-              ghLink="https://github.com/bhaargav04/TimetableBhaargav"
-              demoLink="https://timetablebhaargav.onrender.com/"
+              ghLink="https://github.com/bhaargav04/Timetable-frontend"
+              demoLink="https://smart-time-table-scheduler.netlify.app/"
             />
           </Col>
 
