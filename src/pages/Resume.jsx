@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
+import ClickSpark from '../components/ClickSpark';
 import { AiOutlineDownload } from "react-icons/ai";
 
 import Particle from "../components/Particle";
@@ -31,6 +32,13 @@ const Resume = () => {
   }, []);
 
   return (
+     <ClickSpark
+    sparkColor='#fff'
+    sparkSize={10}
+    sparkRadius={15}
+    sparkCount={8}
+    duration={400}
+  >
     <div>
       <Container fluid className="resume-section">
         <Particle />
@@ -54,6 +62,7 @@ const Resume = () => {
         </Row>
       </Container>
     </div>
+    </ClickSpark>
   );
 };
 

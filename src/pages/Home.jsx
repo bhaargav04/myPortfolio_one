@@ -6,9 +6,17 @@ import About from '../components/Home/About';
 import Type from '../components/Home/Type';
 import Tilt from "react-parallax-tilt";
 import GradientText from '../components/GradientText';
+import ClickSpark from '../components/ClickSpark';
 
 const Home = () => {
   return (
+     <ClickSpark
+    sparkColor='#fff'
+    sparkSize={10}
+    sparkRadius={15}
+    sparkCount={8}
+    duration={400}
+  >
     <section>
       <Container fluid className="home-section" id="home">
         <Particle />
@@ -45,6 +53,7 @@ const Home = () => {
       </Container>
       <About />
     </section>
+    </ClickSpark>
   );
 }
 

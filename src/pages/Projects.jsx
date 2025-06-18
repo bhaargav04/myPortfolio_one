@@ -1,8 +1,9 @@
 import React from "react";
+import ClickSpark from '../components/ClickSpark';
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-import trafficlights from "../assets/projects/trafficlights.jpg";
+import trafficlights from "../assets/projects/todo.avif";
 import timetable from "../assets/projects/timetable.jpg";
 import weather from "../assets/projects/weather.png";
 import marvel from "../assets/projects/marvel.jpg";
@@ -11,6 +12,13 @@ import playstore from "../assets/projects/playstore.png";
 
 const Projects = () => {
   return (
+     <ClickSpark
+    sparkColor='#fff'
+    sparkSize={10}
+    sparkRadius={15}
+    sparkCount={8}
+    duration={400}
+  >
     <Container fluid className="project-section">
       <Particle />
       <Container>
@@ -27,7 +35,7 @@ const Projects = () => {
               isBlog={false}
               title="Weather Forecast"
               description="My weather forecast project is a sleek and responsive web application built with React.js, providing real-time weather updates for any location. With a clean and intuitive interface, users can effortlessly check current conditions, temperature, humidity, wind speed, and future forecasts. The app fetches data from a weather API, ensuring accurate and up-to-date information. Designed with a visually appealing layout and smooth user experience, this project showcases my front-end development skills while offering a practical tool for everyday weather tracking."
-              ghLink="https://github.com/bhaargav04/WeatherApp"
+              ghLink="https://github.com/bhaargav04/Weather_App"
               demoLink="https://weatherforecast-bhaargav.netlify.app/"
             />
           </Col>
@@ -56,11 +64,12 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={trafficlights}
+              imgPath={todo}
               isBlog={false}
-              title="Traffic Light"
+              title="To-do List using React"
               description="My traffic light project is a Python-based simulation that visually represents the functioning of a standard traffic light system. Using graphical libraries, it cycles through red, yellow, and green lights with realistic timing intervals, demonstrating an essential aspect of traffic control. This project showcases my ability to implement logical sequencing and visual representation in Python, making it an engaging demonstration of real-world automation concepts."
-              ghLink="https://github.com/bhaargav04/Traffic-ligths.py"
+              ghLink="https://github.com/bhaargav04/react-todo"
+              demoLink="https://react-todo-pykb.onrender.com"
             />
           </Col>
 
@@ -87,6 +96,7 @@ const Projects = () => {
         </Row>
       </Container>
     </Container>
+    </ClickSpark>
   )
 }
 
