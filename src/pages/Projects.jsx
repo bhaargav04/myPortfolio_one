@@ -3,7 +3,7 @@ import ClickSpark from '../components/ClickSpark';
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-import trafficlights from "../assets/projects/todo.avif";
+import todo from "../assets/projects/todo.avif";
 import timetable from "../assets/projects/timetable.jpg";
 import weather from "../assets/projects/weather.png";
 import marvel from "../assets/projects/marvel.jpg";
@@ -67,7 +67,7 @@ const Projects = () => {
               imgPath={todo}
               isBlog={false}
               title="To-do List using React"
-              description="My React To-Do List project is a dynamic and responsive task management application designed to help users organize their daily activities efficiently. Built using React.js, it features functionalities such as task addition, deletion, completion toggling, and real-time UI updates through state management. The application emphasizes component-based architecture and clean user interaction, reflecting core concepts of modern frontend development. This project highlights my proficiency in React, state handling with hooks, and building interactive user interfaces that enhance productivity and user experience."
+              description="My React To-Do List project is a responsive task management app built with React.js, allowing users to add, delete, and mark tasks as complete. It uses state management for real-time UI updates and follows a component-based architecture. The intuitive interface ensures a smooth user experience across devices. This project demonstrates my skills in React, hooks, and creating clean, interactive user interfaces."
               ghLink="https://github.com/bhaargav04/react-todo"
               demoLink="https://react-todo-pykb.onrender.com"
             />
