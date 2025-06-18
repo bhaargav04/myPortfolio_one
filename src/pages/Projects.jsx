@@ -67,7 +67,7 @@ const Projects = () => {
               imgPath={todo}
               isBlog={false}
               title="To-do List using React"
-              description="My traffic light project is a Python-based simulation that visually represents the functioning of a standard traffic light system. Using graphical libraries, it cycles through red, yellow, and green lights with realistic timing intervals, demonstrating an essential aspect of traffic control. This project showcases my ability to implement logical sequencing and visual representation in Python, making it an engaging demonstration of real-world automation concepts."
+              description="My React To-Do List project is a dynamic and responsive task management application designed to help users organize their daily activities efficiently. Built using React.js, it features functionalities such as task addition, deletion, completion toggling, and real-time UI updates through state management. The application emphasizes component-based architecture and clean user interaction, reflecting core concepts of modern frontend development. This project highlights my proficiency in React, state handling with hooks, and building interactive user interfaces that enhance productivity and user experience."
               ghLink="https://github.com/bhaargav04/react-todo"
               demoLink="https://react-todo-pykb.onrender.com"
             />
