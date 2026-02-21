@@ -1,5 +1,8 @@
 # React + Vite
 
+1. After Git Clone, first install the node modules by "npm i" command.
+2. Before push this code, generate the dist folder by "npm run build" command.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

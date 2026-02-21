@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { DiJavascript1, DiReact, DiNodejs, DiJava } from "react-icons/di";
-import { SiPython, SiMongodb, SiHtml5, SiBootstrap, SiCss3 } from "react-icons/si";
+import { SiPython, SiMongodb, SiHtml5, SiBootstrap, SiCss3, SiLaravel, SiDjango, SiMariadb, SiMysql } from "react-icons/si";
 
 const techStackData = [
   { icon: <SiHtml5 />, title: "HTML5" },
@@ -13,6 +13,10 @@ const techStackData = [
   { icon: <SiMongodb />, title: "MongoDB" },
   { icon: <SiPython />, title: "Python" },
   { icon: <DiJava />, title: "Java" },
+  { icon: <SiLaravel />, title: "Laravel" },
+  { icon: <SiDjango />, title: "Django" },
+  { icon: <SiMariadb />, title: "MariaDB" },
+  { icon: <SiMysql />, title: "MySQL" },
 ];
 
 const Techstack = () => {

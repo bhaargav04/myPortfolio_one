@@ -19,6 +19,7 @@ const toolStackData = [
   { icon: <SiNotepadplusplus />, title: "Notepad++" },
   { icon: <SiIntellijidea />, title: "IntelliJ IDEA" },
   { icon: <SiPycharm />, title: "PyCharm" },
+  
 ];
 
 const Toolstack = () => {

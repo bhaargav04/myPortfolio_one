@@ -44,8 +44,9 @@ const About = () => {
                     </b>
                
                   &nbsp; like
-                  <b className="yellow"> Express.js</b> and
-                    <b className="yellow"> React.js</b>
+                  <b className="yellow"> Express.js</b> ,
+                    <b className="yellow"> React.js</b> , <b className="yellow"> Django</b> and
+                    <b className="yellow"> Laravel</b>
                  
                   <br />
                   <br />
