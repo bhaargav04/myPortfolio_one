@@ -2,6 +2,7 @@
 
 1. After Git Clone, first install the node modules by "npm i" command.
 2. Before add the folders/files to git or commit or push this code, generate the dist folder by "npm run build" command.
+3. This portfolio uses react icons and you can get this by this site https://react-icons.github.io/react-icons/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
